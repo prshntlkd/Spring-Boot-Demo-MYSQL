@@ -1,10 +1,13 @@
 package com.mysql.demo.service;
 
-import com.fasterxml.jackson.databind.util.JSONPObject;
+
+import org.json.JSONObject;
+
 import com.mysql.demo.model.User;
 
 public interface UserService {
 	
-	public JSONPObject saveUser(User user);
+	public JSONObject saveUser(User user);
 
+	 
 }
